@@ -41,10 +41,10 @@ export default function Home({ products }) {
     );
 }
 
-export async function getStaticProps() {
-    const products = await fetchDataFromApi("/api/products?populate=*");
+// export async function getStaticProps() {
+//     const products = await fetchDataFromApi("/api/products?populate=*");
 
-    return {
-        props: { products },
-    };
-}
+//     return {
+//         props: { products },
+//     };
+// }
